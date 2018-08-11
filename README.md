@@ -3,7 +3,7 @@ A demo ionic app with Google AdMob Advertisements integrated.
 
 ## Getting Started
 
-1.Download as zip or clone the project using:
+1. Download as zip or clone the project using:
 ```
 git clone https://github.com/MoAsmar/ionic-admob-demo.git
 ```
@@ -11,8 +11,9 @@ git clone https://github.com/MoAsmar/ionic-admob-demo.git
 
 ### Prerequisites
 
--Ionic version 3.1.0 or higher (built with version 4.0.6)
--cordova (built with version 8.0.0)
+-Ionic version 3.1.0 or higher (built with version 4.0.6).
+
+-cordova (built with version 8.0.0).
 
 ### Installing
 
