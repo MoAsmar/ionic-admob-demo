@@ -19,7 +19,7 @@ npm install @ionic-native/admob-free --save
 
 ### Prerequisites
 
--Ionic version 3.1.0 or higher (built with version 4.0.6).
+-Ionic version 3.1.0.
 
 -cordova (built with version 8.0.0).
 
