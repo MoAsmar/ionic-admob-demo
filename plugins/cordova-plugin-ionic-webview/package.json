@@ -1,0 +1,65 @@
+{
+  "_from": "cordova-plugin-ionic-webview@^2.0.0",
+  "_id": "cordova-plugin-ionic-webview@2.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-KSI4V8vigTzwFqWGGr8DSMFuao2obVxqfgNho9gROFK7dEIldpju1jshQZuxsoRa6llKpbTu3W7/XQvB8fTDFw==",
+  "_location": "/cordova-plugin-ionic-webview",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cordova-plugin-ionic-webview@^2.0.0",
+    "name": "cordova-plugin-ionic-webview",
+    "escapedName": "cordova-plugin-ionic-webview",
+    "rawSpec": "^2.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-ionic-webview/-/cordova-plugin-ionic-webview-2.0.2.tgz",
+  "_shasum": "c46b0a7b7295efe4c3d7620f44c3a297b77bab5f",
+  "_spec": "cordova-plugin-ionic-webview@^2.0.0",
+  "_where": "C:\\Workarea\\Temp\\test_ionic\\helloWorld",
+  "author": {
+    "name": "Ionic Team"
+  },
+  "bugs": {
+    "url": "https://github.com/ionic-team/cordova-plugin-ionic-webview/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "The official Ionic's WKWebView Engine Plugin",
+  "devDependencies": {
+    "np": "^3.0.4",
+    "sync-cordova-xml": "^0.4.0"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "2.0.0": {
+        "cordova-android": ">=6.4.0",
+        "cordova-ios": ">=4.0.0-dev"
+      }
+    }
+  },
+  "homepage": "https://github.com/ionic-team/cordova-plugin-ionic-webview#readme",
+  "keywords": [
+    "cordova",
+    "wkwebview"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "cordova-plugin-ionic-webview",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionic-team/cordova-plugin-ionic-webview.git"
+  },
+  "scripts": {
+    "deploy": "np --yolo",
+    "sync_plugin_xml": "sync-cordova-xml package.json plugin.xml --output=plugin.xml",
+    "version": "npm run sync_plugin_xml && git add plugin.xml"
+  },
+  "version": "2.0.2"
+}
