@@ -7,7 +7,10 @@ A demo ionic app with Google AdMob Advertisements integrated.
 ```
 git clone https://github.com/MoAsmar/ionic-admob-demo.git
 ```
-2. cd to your project and run `npm install`
+2. cd to your project and run `npm install` .
+3. add the platform for the app to run on your device:
+
+`ionic cordova platform add android` for android devices, use ios for ios devices.
 
 ### Prerequisites
 
