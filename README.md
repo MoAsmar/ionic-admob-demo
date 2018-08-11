@@ -11,6 +11,7 @@ git clone https://github.com/MoAsmar/ionic-admob-demo.git
 3. Run the following commands to install the AdMob Free plugin:
 ```
 cordova plugin add cordova-plugin-admob-free --save 
+cordova plugin add cordova-admob-sdk
 npm install @ionic-native/admob-free --save
 ```
 4. add the platform for the app to run on your device: `ionic cordova platform add android` for android devices.
